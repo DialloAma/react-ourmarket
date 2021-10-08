@@ -14,7 +14,7 @@ const Viewproduct = (props) => {
         <div className="view top">
             
             <div className="col-2">
-              <img className="ima" src={data.products.image}>
+              <img className="ima" src="">
               </img>
             </div>
             <div className="cart cart-body">
