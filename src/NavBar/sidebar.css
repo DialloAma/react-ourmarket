@@ -1,0 +1,42 @@
+.side_bar{
+    width: 70%;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: all 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.side_bar.show{
+    transform: translateX(30);
+}
+.sideb_link{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.sideb_link > li{
+    display: flex;
+    align-items: center;
+}
+.sideb_link > li > a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center ;
+ flex: 1;
+ padding: 1rem;
+ color: black;
+text-decoration: none;
+font-size: 1.5rem;
+}
+.sideb_link > li > a > span{
+    display: flex;
+    
+    margin-left: 8px;
+}
