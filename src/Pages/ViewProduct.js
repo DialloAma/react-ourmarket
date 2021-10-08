@@ -6,15 +6,15 @@ import data from '../data';
 
 
 const Viewproduct = (props) => {
-    const id=props.match.params
-    const product= data.products.find((x)=>x._id === id )
+   // const id=props.match.params
+   // const product= data.products.find((x)=>x._id === props.match.params.id )
    // console.log(product)
    
     return (
         <div className="view top">
             
             <div className="col-2">
-              <img className="ima" src={product.image}>
+              <img className="ima" src={data.products.image}>
               </img>
             </div>
             <div className="cart cart-body">
